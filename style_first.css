@@ -1,7 +1,4 @@
 /* 주석처리 Ctrl + / */
-body{
-    font-size: 3vw;
-}
 
 h2 {
     color: red;
@@ -41,12 +38,12 @@ h2 {
     object-fit: cover;
 }
 #profile_pic{
-    width: 15vw;
-    height: 15vw;
+    width: 50px;
+    height: 50px;
 }
 .highlight_pic{
-    width: 10vw;
-    height: 10vw;
+    width: 35px;
+    height: 35px;
 
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +52,7 @@ h2 {
 /* 하이라이트 */
 #highlight_area{
     display: grid;
-    grid-template-columns: 12vw 12vw 1fr;
+    grid-template-columns: 45px 45px 1fr;
 }
 .highlight {
     text-align: center;
@@ -70,17 +67,17 @@ h2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
 
-    height: 15vw;
+    height: 50px;
 }
 #id{
-    font-size: 6vw;
+    font-size: 18px;
     font-weight: 100;
 }
 button{
     height: 80%;
     width: 95%;
 
-    font-size: 3vw;
+    font-size: 10px;
     background-color: white;
     border: solid gray 1px;
     border-radius: 3px;
@@ -90,11 +87,10 @@ button{
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    height: 10vw;
-    min-height: 10vw;
+    height: 30px;
 
     border-bottom: solid gray 0.1px;
-    margin-bottom: 3vw;
+    margin-bottom: 10px;
 }
 #top img{
     margin-left: auto;
@@ -118,18 +114,18 @@ button{
     border: solid gray 1px;
     border-radius: 3px;
 
-    font-size: 3vw;
+    font-size: 10px;
     font-weight: 100;
 }
 i{
     color: gray;
 }
 #top i{
-    font-size: 4vw;
+    font-size: 14px;
 }
 #top div{
     text-align: center;
-    padding-top: 3vw;
+    padding-top: 6px;
 }
 
 /* 하단 아이콘 */
@@ -138,9 +134,9 @@ i{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     text-align: center;
-    font-size: 5vw;
+    font-size: 15px;
 
-    height: 8vw;
+    height: 30px;
 }
 .selected{
     border-bottom: solid gray 3px;
